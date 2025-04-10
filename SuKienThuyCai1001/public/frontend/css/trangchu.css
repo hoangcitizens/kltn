@@ -1,0 +1,121 @@
+.head {
+    position: relative; 
+    width: 100%;
+    max-width: 1800px; 
+    margin: auto;
+    margin-top: -90px;
+}
+
+
+video {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(to right,rgba(0, 238, 255,0.5), rgba(18, 225, 115,0.5)),
+                linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.264));
+                z-index: 1;
+}
+.header{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15rem;
+}
+.banner_cap{
+    color: white;
+    max-width: 700px;
+}
+
+.banner_contact .btn-quotes{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    width: 200px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+}
+.banner_contact a{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 0;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+}
+.banner_contact .phone{
+    background: #0073ffe0;
+    margin-right: 25px;
+}
+
+.py-xxl-3{
+        display: flex;
+
+    }
+@media (max-width: 850px) {
+    .py-xxl-3{
+        display: block;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+       margin-top: 7rem;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+       margin-top: 7rem;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+       font-size: 1rem;
+    }
+}
+@media (max-width: 666px) {
+    .banner_cap{
+        display: none;
+    }
+}
+p{
+    font-size: 20px;
+}
+
+
+.box {
+    background-color: rgb(2, 56, 83);
+    height: auto;
+    color: white;
+    border-radius: 5px;
+}
+.box img{
+    width: 50px;
+    height: 50px;
+}
