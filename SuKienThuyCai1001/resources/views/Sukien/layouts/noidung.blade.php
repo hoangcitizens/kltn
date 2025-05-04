@@ -13,6 +13,7 @@
     <body>
         @include('Sukien.layouts.header')
         <div style="height: 90px"></div>
+
         @yield('content')
         @include('Sukien.layouts.footer')
     </body>

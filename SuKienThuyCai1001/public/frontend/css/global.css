@@ -1,19 +1,23 @@
 .menu_container > ul{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 /* .menu_container > ul > li{
     flex: 1;
 } */
 .menu_container > ul > li > a {
-    
     padding: 0px 15px;
     color: #452dff;
     font-weight: 1000;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 
@@ -32,6 +36,7 @@ li li a{
     z-index: 3;
     width: 100%;
     top: 0;
+    padding: 10px 20px;
 }
 
 .dropdown-menu .dropdown-item{
